@@ -54,6 +54,7 @@ var MainComponent = {
       var rightNo = this.getRandomDoorNo();  // 1,2,3
       this.doors[rightNo - 1].right = true;  // 0,1,2
       this.comment = 'どれかドアを選んでください。';
+      this.selectedDoorNo = 0;
     },
 
     initDoors: function() {
