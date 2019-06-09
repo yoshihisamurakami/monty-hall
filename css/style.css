@@ -1,0 +1,66 @@
+
+h3 {
+  text-align: center;
+  color: #888;
+}
+.header-component {
+  width: 680px;
+  height: 2em;
+  border: 1px solid #ccc;
+  background-color: #f0f0ff;
+  color: #888;
+  text-align: center;
+  margin: auto;
+}
+.main-component {
+  width: 680px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+  padding: 4px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 6px 0;
+}
+.door {
+  width: 200px;
+  vertical-align: middle;
+  display: table-cell;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.yagi {
+  background-image: url("../images/animal_yagi.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position : center center;
+}
+.car {
+  background-image: url("../images/car_character1_sportscar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position : center center;
+}
+.selected {
+  border: 3px solid #88f;
+}
+.navi-component {
+  text-align: center;
+}
+.navi-button {
+  font-size: 1.2em;
+  background-color:#28f;
+  color: #fff;
+  border-style: none;
+  padding: 10px;
+  border-radius: 8px;
+  outline: 0;
+}
+.navi-button:active {
+  outline: 0;
+}
